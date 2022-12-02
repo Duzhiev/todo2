@@ -1,0 +1,78 @@
+.header {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+    margin-left: 500px;
+    font-weight: bolder;
+}
+
+.addendum {
+    margin-left: 440px;
+    margin-top: 15px;
+}
+
+.ipt {
+    width: 350px;
+    height: 40px;
+    font-size: 15px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 100px;
+    height: 45px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    margin-left: 10px;
+}
+
+.todo {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 440px;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.favorite button {
+    padding: 0 15px;
+    font-size: 22px;
+    padding: 7px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.todoText {
+    flex: 1;
+}
+
+
+
+.actions button {
+    color: red;
+    background-color: transparent;
+    font-size: 22px;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.selected .favorite button {
+    color: #ffd231;
+}
+
+.selected {
+    background-color: #fff6d6;
+}
